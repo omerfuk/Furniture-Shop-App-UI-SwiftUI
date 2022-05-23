@@ -11,7 +11,7 @@ struct HomeScreen: View {
     @State private var search: String = ""
     @State private var selectedIndex: Int = 1
     
-    private let categories = ["All", "Chair", "Sofa", "Lamp", "Kitchen", "Table"]
+    private let categories = ["Resim", "Spor", "Müzik", "Tiyatro", "Yürüyüş"]
     var body: some View {
         NavigationView {
             ZStack {
